@@ -46,6 +46,7 @@ public class menuPrincipal{
                     System.out.println("---> Subtotal sin iva: $" + f.subTotal);
                     System.out.println("---> Total a pagar: $" + f.totalAPagar);
                     System.out.println("----------------------------------------");
+                    System.out.println("<-------GRACIAS POR SU COMPRA-----------");
                     System.out.println("****************************************");  
                 } 
             } else if (opciones == 0) {
