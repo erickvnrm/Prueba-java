@@ -5,9 +5,9 @@ public class generarFactura {
     public generarFactura(Double valorCompra){
         descuentoPorcentaje = calcularDescuentos(valorCompra);
         valorDescuento = valorCompra * descuentoPorcentaje;
-        subTotal = valorCompra - valorDescuento;
-        ivaFinal = subTotal * iva;
-        totalAPagar = (valorCompra - valorDescuento) + ivaFinal;
+        ivaFinal = valorCompra * iva;
+        subTotal = valorCompra;
+        totalAPagar = (subTotal - valorDescuento) + ivaFinal;
     }
 
     // Calculo y retorno el descuento, en base al valor de la compra 

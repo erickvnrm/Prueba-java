@@ -43,7 +43,7 @@ public class menuPrincipal{
                     System.out.println("---> Valor de la compra: $" + valorCompra);
                     System.out.println("---> Descuento del " + f.descuentoPorcentaje + "% = $" + f.valorDescuento);
                     System.out.println("---> Iva %19: " + f.ivaFinal);
-                    System.out.println("---> Subtotal: $" + f.subTotal);
+                    System.out.println("---> Subtotal sin iva: $" + f.subTotal);
                     System.out.println("---> Total a pagar: $" + f.totalAPagar);
                     System.out.println("----------------------------------------");
                     System.out.println("****************************************");  
